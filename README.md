@@ -32,6 +32,10 @@ Por categoria, os filmes são filtrados. É importante mencionar que em modo pes
 <h3> :clapper: Cenários infelizes</h3>
 Os cenários mapeados são: erros genéricos para quaisquer falhas de requisição e filme não encontrado em uma busca.</p>
 
-<br><br>
+<br>
 
 <img src="uiProject.png" width="800px"></img>
+
+<h3>:clapper: Vídeo </h3>
+
+https://www.youtube.com/watch?v=cC916Nh0Xao
