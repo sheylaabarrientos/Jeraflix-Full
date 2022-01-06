@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.profile.ProfilesActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/name_profile_filho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_24"
+            android:background="@drawable/edit_text_subscribe"
+            android:ems="15"
+            android:hint="@string/digite_o_nome_do_perfil"
+            android:imeOptions="actionSearch"
+            android:inputType="textCapWords"
+            android:padding="@dimen/margin_16"
+            android:privateImeOptions="@color/black"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/selectImageProfile"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="@dimen/margin_24"
+            android:background="@drawable/ic_baseline_account_box_24"
+            android:backgroundTint="@color/greenPrimaryColor"
+            android:textColorHint="@color/greenPrimaryColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/name_profile_filho" />
+
+        <Button
+            android:id="@+id/bt_selecionar_foto"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@color/transparentColor"
+            android:text="Button"
+            app:layout_constraintBottom_toBottomOf="@+id/selectImageProfile"
+            app:layout_constraintEnd_toEndOf="@+id/selectImageProfile"
+            app:layout_constraintStart_toStartOf="@+id/selectImageProfile"
+            app:layout_constraintTop_toTopOf="@+id/selectImageProfile" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/btn_add_profile_filho"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginEnd="@dimen/margin_24"
+                android:layout_marginBottom="@dimen/margin_24"
+                android:backgroundTint="@color/greenPrimaryColor"
+                android:elevation="10sp"
+                android:scaleType="center"
+                android:src="@drawable/ic_baseline_add_24"
+                app:fabCustomSize="60dp"
+                app:fabSize="normal" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
