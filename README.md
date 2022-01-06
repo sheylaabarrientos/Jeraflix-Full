@@ -33,6 +33,5 @@ Por categoria, os filmes são filtrados. É importante mencionar que em modo pes
 Os cenários mapeados são: erros genéricos para quaisquer falhas de requisição e filme não encontrado em uma busca.</p>
 
 <br><br>
-Status do Projeto: Em Desenvolvimento :hourglass_flowing_sand:<br><br>
 
 <img src="uiProject.png" width="800px"></img>
