@@ -1,4 +1,3 @@
-# Jeraflix-Full
 <h1>Projeto MyMovies</h1>
 
 <h2>Descrição do projeto</h2>
