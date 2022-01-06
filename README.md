@@ -35,4 +35,4 @@ Os cenários mapeados são: erros genéricos para quaisquer falhas de requisiç�
 <br><br>
 Status do Projeto: Em Desenvolvimento :hourglass_flowing_sand:<br><br>
 
-<img src="ui_projeto_mymovies.png" width="800px"></img>
+<img src="uiProject.png" width="800px"></img>
